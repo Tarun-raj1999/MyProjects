@@ -1,3 +1,0 @@
-created test1/txt file
-
-changed txt
