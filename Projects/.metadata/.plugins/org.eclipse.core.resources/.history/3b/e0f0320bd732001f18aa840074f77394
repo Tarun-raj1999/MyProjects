@@ -1,0 +1,26 @@
+package myNewPackage;
+import java.util.Scanner;
+
+public class Array {
+
+	public void array()
+	{
+		
+     int[] c=new int[10];
+    for(int element :c)
+    {
+    	Scanner sc=new Scanner(System.in);
+    	System.out.println("Enter the number");
+    	System.out.println(element);
+    }
+    
+	
+	}
+	
+  public static void main(String[] args) {
+	  {
+		  Array a=new Array();
+		  a.array();
+	  }
+}
+}

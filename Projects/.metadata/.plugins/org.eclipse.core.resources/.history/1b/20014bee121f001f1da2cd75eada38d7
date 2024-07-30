@@ -1,0 +1,32 @@
+package tarun.basic;
+
+public class Pattern5 {
+
+	public static void main(String[] args) {
+		
+		int n=4;
+		int j=1;
+		
+		
+		for(int row=0;row<=4;row++)
+		{
+			for(int space=0;space<row;row++)
+			{
+				System.out.print(" ");
+			}
+			int totacol=row>2?n+2-row:n+3-row;
+			
+				
+				for(int col=7-j;col<=totacol;col++)
+				{
+					System.out.print(col);
+				}
+				System.out.println("");
+			j++;
+		}
+		}
+
+	}
+
+
+

@@ -1,0 +1,26 @@
+package com.httpSession;
+
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+public class MyHttpSessionListener implements HttpSessionListener{
+
+  ServletContext objServletContext=null;	
+	public static int totalusercount=0,currentusercount=0;
+	public void SessionCreated(HttpSessionEvent se)
+	{
+		totalusercount++;
+		currentusercount++;
+		objServletContext=se.getSession().getServletContext();
+	int totaluser=(Integer) objServletContext.getAttribute("username");
+	
+	int currentuser =(Integer) objServletContext.getAttribute("");
+		
+	}
+	
+	public void SessionDestroyed(HttpSessionEvent se)
+	{
+		currentusercount--;
+	}
+}

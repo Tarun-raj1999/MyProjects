@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ServletFilterDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>ss</servlet-name>
+  <servlet-class>com.servletfilterdemo.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ss</servlet-name>
+  <url-pattern>/login</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  <filter>
+  <filter-name>sss</filter-name>
+  <filter-class>com.servletfilterdemo.AuthenticationFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+<filter-name>sss</filter-name>
+<url-pattern>/login</url-pattern>
+
+  </filter-mapping>
+  
+  
+   <filter>
+  <filter-name>log</filter-name>
+  <filter-class>com.servletfilterdemo.LogFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+<filter-name>log</filter-name>
+<url-pattern>/login</url-pattern>
+
+  </filter-mapping>
+</web-app>

@@ -1,0 +1,17 @@
+package com.usercount;
+
+import javax.servlet.ServletRequestListener;
+
+public class MyServletRequestListner implements ServletRequestListener {
+	
+	public void requestInitialized()
+	{
+		
+	}
+	public void requestDestroyed()
+	{
+		
+	}
+
+	
+}

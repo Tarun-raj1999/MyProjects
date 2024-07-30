@@ -1,0 +1,25 @@
+package com.Cookies;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FirstServlet  extends HttpServlet {
+
+	public void dopost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException
+	{
+	
+		response.setContentType("text/html");
+	   PrintWriter out=response.getWriter();	
+	   
+	   String name=request.getParameter("username");
+	   out.println("<h1>Hii "+ name +"</h1>");
+	   
+	   out.pritnln("<a href=SecondServlet> gt to next page</a>");
+	
+	}
+}

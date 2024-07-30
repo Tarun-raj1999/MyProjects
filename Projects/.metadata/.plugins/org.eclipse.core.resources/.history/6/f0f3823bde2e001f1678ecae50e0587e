@@ -1,0 +1,22 @@
+package myNewPackage;
+
+public class Reverse {
+
+	String s="Oranium";
+	String temp="";
+	public void reverse() {
+		for(int i=s.length();i>0;i++)
+		{
+		temp=temp+s;
+			
+		}
+		
+		System.out.println(temp);
+	}
+	public static void main(String[] args) {
+		Reverse r = new Reverse();
+		r.reverse();
+
+	}
+
+}

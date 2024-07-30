@@ -1,0 +1,12 @@
+spring.application.name=kalviiBatch
+
+spring.datasource.url=jdbc:mysql://localhost:3306/kalviibatch
+spring.datasource.username=kalviibatch	
+
+spring.datasource.password=kalvii@123
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true

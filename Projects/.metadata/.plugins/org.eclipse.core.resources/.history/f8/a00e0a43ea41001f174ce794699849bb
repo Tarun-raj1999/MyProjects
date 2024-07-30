@@ -1,0 +1,54 @@
+package com.springBoot.kalviiBatch.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springBoot.kalviiBatch.entity.StudentDetails;
+import com.springBoot.kalviiBatch.repository.StudentRepository;
+
+@RequestMapping("/studentController")
+@RestController
+public class StudentController 
+{ 
+	@Autowired
+	private StudentRepository sr;
+	@PostMapping("/insertProcess")
+ ResponseEntity< StudentDetails>preDefinedCreateProcess(@RequestBody StudentDetails s)
+   {
+	  StudentDetails sc=new StudentDetails();
+	   sc.setAge(s.getAge());
+       sc.setGender(s.getGender());
+       sc.setName(s.getName());
+	   
+       sr.save(sc);
+       return new ResponseEntity<StudentDetails>(sc,HttpStatus.CREATED);
+   }
+	
+	@PostMapping("/insert")
+	
+	ResponseEntity<Integer> userDefinedCreateProcess(@RequestParam("sno") int age,@RequestParam String name,@RequestParam String gender)
+	{   
+		int i=sr.createStudentDetails(age, gender, name);
+		if(i==1)
+		{
+			System.out.println("created");
+		}
+		return new ResponseEntity<Integer>(i,HttpStatus.CREATED);
+	}
+	
+	
+	StudentDetails userDefinedReadProcess(@RequestParam int id)
+	{
+		System.out.println(id);
+		StudentDetails sc=sr.getStudentDetailsById(id);
+		System.out.println(sc);
+		return sc;
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.springBoot.kalviiBatch.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.springBoot.kalviiBatch.entity.StudentDetails;
+
+
+
+public interface StudentRepository extends JpaRepository<StudentDetails,Integer>
+{
+       @Query(value="select * from student_details where id=?",nativeQuery=true)
+	  StudentDetails getStudentDetailsById(int id);
+	
+	
+}

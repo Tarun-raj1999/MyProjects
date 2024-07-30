@@ -1,0 +1,26 @@
+package myNewPackage;
+
+public class Reverse {
+
+	String s="oranium";
+	String temp="";
+	public void reverse() {
+
+		for(int i=s.length();i>0;i--)
+		{
+			for(int j=i;j<=i;j--)
+			{
+				temp=temp+s;
+			}
+		}
+		
+		
+	}
+ 
+	public static void main(String[] args) {
+		Reverse r = new Reverse();
+		r.reverse();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.hiddenForm1;
+
+public class HiddenForm extends HttpServlet {
+	public void doPost
+
+}

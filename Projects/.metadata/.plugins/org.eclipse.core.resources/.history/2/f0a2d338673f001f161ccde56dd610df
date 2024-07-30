@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ServletOne" method="post">
+Enter the user name:<input type="text" name="username"/>
+Enter the password:<input type="password" name="password"/>
+<button type="submit" id="Add">Addition</button>
+<button type="submit" id="Sub">Sub</button>
+<button type="submit" id="Mul">Mul</button>
+<button type="submit" id="div">Div</button>
+<button type="submit" id="Mod">Mod</button>
+</form>
+</body>
+</html>

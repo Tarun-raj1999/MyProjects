@@ -1,0 +1,5 @@
+package com.springBoot.kalviiBatch.repository;
+
+public interface StudentRepository {
+
+}

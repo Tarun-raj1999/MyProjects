@@ -1,0 +1,5 @@
+package com.springBoot.kalviiBatch.entity;
+
+public class StudentDetails {
+
+}

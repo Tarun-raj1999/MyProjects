@@ -1,0 +1,5 @@
+package com.servletcontextattribute;
+
+public class MyServletContextAttributeListener {
+
+}

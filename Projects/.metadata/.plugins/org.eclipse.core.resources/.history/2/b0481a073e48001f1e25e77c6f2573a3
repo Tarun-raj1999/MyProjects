@@ -1,0 +1,12 @@
+package com.tcs;
+
+public class JdbcExample1 {
+
+	public static void main(String[] args)  throws ClassNotFoundException{
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		System.out.println("Driver loading completed");
+
+	}
+
+}

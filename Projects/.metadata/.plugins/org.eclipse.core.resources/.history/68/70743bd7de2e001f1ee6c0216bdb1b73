@@ -1,0 +1,18 @@
+package myNewPackage;
+
+public class Reverse {
+
+	String s="Oranium";
+	String temp="";
+	public void reverse() {
+		System.out.println(s.length());
+		
+		
+	}
+	public static void main(String[] args) {
+		Reverse r = new Reverse();
+		r.reverse();
+
+	}
+
+}

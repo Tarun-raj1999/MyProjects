@@ -1,0 +1,5 @@
+package com.httpsessionattribute;
+
+public class MyHttpSessionAttributeServlet {
+
+}

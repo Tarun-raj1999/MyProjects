@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class IFstate {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int itemnum=s.nextInt();
+		String name=s.next();
+		double rate=s.nextDouble();
+		double quantity=s.nextDouble();
+		
+		double price =s.nextDouble();
+		
+		int n=s.nextInt();
+		double disc = n%10*price;
+		
+		double netprice=price-disc;
+		
+		if(price>=1000 && price<2000)
+		  System.out.println(disc);
+		
+		else
+		if (price>=2000 && price<3000)
+			System.out.println(disc);
+			else
+		if (price>=3000 && price<5000)
+			System.out.println(disc);
+			else
+		if (price >=5000)
+			System.out.println(disc);
+			
+		System.out.println(itemnum);
+		System.out.println(name);
+		System.out.println(rate);
+		System.out.println(disc);
+		System.out.println(netprice);
+		
+			
+	}
+
+}

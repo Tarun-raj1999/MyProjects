@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Rec {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		int length=s.nextInt();
+		int bredth=s.nextInt();
+		int area=length*bredth;
+		System.out.println(area);
+
+	}
+
+}

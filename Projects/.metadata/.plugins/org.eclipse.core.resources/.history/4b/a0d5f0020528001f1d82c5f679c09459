@@ -1,0 +1,90 @@
+package myNewPackage;
+
+public class Weekends {
+public void weekend() {
+	int a=3;
+	if(a<0 && a>=7)
+	{
+	if(a==1)
+	{
+		System.out.println("this is sunday");
+	
+}
+	else if(a==2)
+	{
+	System.out.println("this is monday");	
+}
+	else if(a==3)
+	{
+	System.out.println("this is tuesday");	
+}
+	else if(a==4)
+	{
+		System.out.println("this is wednesday");
+	}
+	else if(a==5)
+	{
+		System.out.println("this is thursday");
+	}
+	else if(a==6)
+	{
+		System.out.println("this friday");
+}
+	else if(a==7)
+	{
+		System.out.println("this is saturday");
+}
+}
+	else
+	{
+		System.out.println("enter the valid input");
+	}
+}
+public void switchS()
+{
+	int day=3;
+	
+	switch (day) {
+	case 1:
+		System.out.println("this is sunday");
+		break;
+	case 2:
+		System.out.println("this is monday");
+		break;
+	case 3:
+		System.out.println("this is tuesday");
+		break;
+	case 4:
+		System.out.println("this is wednesday");
+		break;
+	case 5:
+		System.out.println("this is thursday");
+		break;
+	case 6:
+		System.out.println("this is friday");
+		break;
+	case 7:
+		System.out.println("this is saturday");
+		break;
+		default:
+		System.out.println("enter the valid input");
+			
+		}
+
+		
+		
+	}
+	
+	
+
+}
+	
+	public static void main(String[] args) {
+		Weekends obj1=new Weekends();
+		obj1.weekend();
+		obj1.switchS();
+		
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.springBoot.kalviiBatch.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springBoot.kalviiBatch.entity.StudentDetails;
+import com.springBoot.kalviiBatch.repository.StudentRepository;
+
+@RequestMapping("/studentController")
+@RestController
+public class StudentController 
+{ 
+	@Autowired
+	private StudentRepository sr;
+	@PostMapping("/insertProcess")
+   StudentDetails preDefinedCreateProcess(@RequestBody StudentDetails s)
+   {
+	  StudentDetails sc=new StudentDetails();
+	   sc.setAge(s.getAge());
+       sc.setGender(s.getGender());
+       sc.setName(s.getName());
+	   
+       sr.save(sc);
+       return sc;
+   }
+	
+}

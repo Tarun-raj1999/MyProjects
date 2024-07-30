@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class BigNu {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int n1=s.nextInt();
+		int n2=s.nextInt();
+		int n3=s.nextInt();
+		int max =n1>n2 ? n1 : n2;
+		System.out.println("the greatest number is"+max);
+		System.out.println("the greatest number is"+n3);
+		
+	
+	}
+
+}

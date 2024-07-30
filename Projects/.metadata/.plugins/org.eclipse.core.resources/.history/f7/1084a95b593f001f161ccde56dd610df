@@ -1,0 +1,47 @@
+package com.AdvanceJava;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class AdvanceJava extends HttpServlet{
+	
+	public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
+		
+		response.setContentType("text/html");
+		String name=request.getParameter("username");
+		String password=request.getParameter("password");
+		String num1=request.getParameter("num1");
+		String num2=request.getParameter("num2");
+		
+		
+		PrintWriter out=response.getWriter();
+		out.println("<h1>Name"+name+"</h1>");
+		out.println("<h1>Password"+password+"</h1>");
+		
+		request.setAttribute("valuetoservlet", name);
+		request.setAttribute("number1", num1);
+		request.setAttribute("number2", num2);
+		if(password.equals("oranium"))
+		{
+			RequestDispatcher rDispatcher =request.getRequestDispatcher("PasswordVerification");
+			rDispatcher.forward(request, response);
+			
+		}
+		else {
+			out.println("please enter the correct password");
+			RequestDispatcher rDispatcher=request.getRequestDispatcher("index.html");
+			rDispatcher.include(request,response);
+		}
+		
+		
+	}
+
+	
+	
+}

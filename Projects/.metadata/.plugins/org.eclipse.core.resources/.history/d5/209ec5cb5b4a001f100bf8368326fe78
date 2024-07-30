@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>httpdemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+  <servlet-name>ss</servlet-name>
+  <servlet-class>com.httpsessiondemo.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ss</servlet-name>
+  <url-pattern>/loginservlet</url-pattern>
+  </servlet-mapping>
+  
+
+  <servlet>
+  <servlet-name>sss</servlet-name>
+  <servlet-class>com.httpsessiondemo.LogoutServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>sss</servlet-name>
+  <url-pattern>/logoutservlet</url-pattern>
+  </servlet-mapping>
+  
+    <listener>
+  <listener-class>com.httpsessiondemo.MyHttpSessionListener</listener-class>
+  </listener>
+  
+  
+  
+  
+  
+      <servlet>
+  <servlet-name>ssss</servlet-name>
+  <servlet-class>com.httpsessiondemo.MyHttpSessionAttributeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ssss</servlet-name>
+  <url-pattern>/MyHttpSessionAttributeServlet</url-pattern>
+  </servlet-mapping>
+  
+     <listener>
+  <listener-class>com.httpsessiondemo.MyHttpSessionAttributeListener</listener-class>
+  </listener>
+</web-app>

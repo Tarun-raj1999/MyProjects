@@ -1,0 +1,19 @@
+package com.httpSession;
+
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+public class MyHttpSessionListener implements HttpSessionListener{
+
+	
+	public static int totalusercount=0,currentusercount=0;
+	public void SessionCreated(HttpSessionEvent se)
+	{
+		
+	}
+	
+	public void SessionDestroyed(HttpSessionEvent se)
+	{
+		
+	}
+}

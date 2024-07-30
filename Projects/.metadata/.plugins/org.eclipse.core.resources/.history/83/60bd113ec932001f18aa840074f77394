@@ -1,0 +1,22 @@
+package myNewPackage;
+
+public class Array {
+
+	public void array()
+	{
+		
+		int a[]=new int[10];
+		for(int element :a)
+		{
+			System.out.println(element);
+		}
+		
+	}
+	
+  public static void main(String[] args) {
+	  {
+		  Array a=new Array();
+		  a.array();
+	  }
+}
+}

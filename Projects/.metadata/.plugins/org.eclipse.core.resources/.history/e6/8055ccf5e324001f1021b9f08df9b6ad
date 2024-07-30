@@ -1,0 +1,47 @@
+package myNewPackage;
+
+public class RelationalOperator {
+	
+	
+	
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		//RelationalOperator
+		System.out.println("Relational Operator");
+		System.out.print(a>b);
+		System.out.print(a<b);
+		System.out.print(a<=b);
+		System.out.print(a>=b);
+		System.out.print(a!=b);
+		System.out.print(a==b);
+		System.out.println("");
+		
+        //logicalOperator
+		System.out.println(a<=b && a!=b);
+		System.out.println(a>=b || a<b);
+		System.out.println(!(a<b));
+		System.out.print("");
+		
+		//conditionalOperator
+	 System.out.println((a!=b)?"A is not equal to b":"A is equal to b");
+	 System.out.println("");
+	 
+	 //increDecre
+	 System.out.println(a++);
+	 System.out.println(++a);
+	 System.out.println(b--);
+	 System.out.println(--b);
+	 System.out.println("");
+	 
+	 //concatenationOperator
+	 
+	 System.out.println("The A and b are not eqaual"+"hence it will return false");
+	 
+	 
+	 
+	 
+	}
+
+}

@@ -1,0 +1,23 @@
+package myNewPackage;
+
+public class Reverse {
+
+	String s="this is java";
+	String temp="";
+	public void reverse() {
+
+		for(int i=0;i<=s.length();i++)
+		{
+			temp=s+temp;
+		}
+		
+		  System.out.println(temp);
+	}
+ 
+	public static void main(String[] args) {
+		Reverse r = new Reverse();
+		r.reverse();
+
+	}
+
+}

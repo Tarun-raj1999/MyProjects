@@ -1,0 +1,5 @@
+package com.httpsessiondemo;
+
+public class LogoutServlet {
+
+}

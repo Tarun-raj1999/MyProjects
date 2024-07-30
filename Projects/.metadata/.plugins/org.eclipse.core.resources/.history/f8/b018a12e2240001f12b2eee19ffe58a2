@@ -1,0 +1,17 @@
+package minAndMax;
+
+public class MaxNumber {
+
+	public void max()
+	{
+		int arr[]= {12,15,20,30};
+		System.out.println(arr.length);
+	}
+	public static void main(String[] args) {
+	
+		MaxNumber m=new MaxNumber();
+		m.max();
+
+	}
+
+}

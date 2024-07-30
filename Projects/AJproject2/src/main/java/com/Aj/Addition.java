@@ -1,0 +1,32 @@
+package com.Aj;
+
+import javax.servlet.http.HttpServlet;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Addition extends HttpServlet{
+
+	public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{
+		
+		response.setContentType("text/html");
+		
+	    
+	int i=(int) request.getAttribute("number1");
+	int j=(int) request.getAttribute("number2");
+		int k=i+j;
+			
+			
+	     	PrintWriter out=response.getWriter();
+	     	out.println("<h1>The addition of Two numbers "+k+"</h1>");
+	     
+		
+		
+		
+	}
+}

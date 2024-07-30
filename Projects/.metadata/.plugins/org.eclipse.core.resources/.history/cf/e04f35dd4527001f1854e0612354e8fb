@@ -1,0 +1,16 @@
+package tarun.basic;
+
+public class StringProjs {
+
+	String s1="this is java";
+	public void stringProj1()
+	{
+		System.out.println(s1);
+	}
+	public static void main(String[] args) {
+		StringProjs obj1=new StringProjs();
+		obj1.stringProj1();
+        
+	}
+
+}
