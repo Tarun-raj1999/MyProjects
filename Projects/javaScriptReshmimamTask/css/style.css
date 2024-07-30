@@ -1,0 +1,27 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+   
+   display: flex;
+   justify-content: center;
+   margin: 200px 0px;
+}
+
+#box{
+    border: 1px solid black;
+    height:20vh;
+    width:15vw;
+    text-align: center;
+   
+}
+
+.content{
+    margin:50px;
+}

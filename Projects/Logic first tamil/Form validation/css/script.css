@@ -1,0 +1,74 @@
+body{
+    width: 100vw;
+    height:100vh;
+    background-color:palegreen;
+ display:grid;
+ place-items:center;
+}
+
+.container{
+
+    background-color:white;
+    width:500px;
+    padding:10px;
+
+}
+
+.conatiner h3{
+    font-weight:500;
+    text-align:center;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+.form-group{
+    color:#333;
+    margin-bottom: 10px;
+    padding-bottom:20px;
+}
+
+.form-group lable{
+display:block;
+margin-bottom:5px;
+
+}
+
+.form.group input{
+
+    border:2px solid #f0f0f0;
+    width:100px;
+    padding:10px;
+    font-size:14px;
+    outline:none;
+}
+
+.form-group p{
+font-size: 10px;
+margin-top:5px;
+visibility:hidden;
+
+}
+
+.form{
+
+    padding:30px 40px;
+}
+
+.form button{
+width:100%;
+padding:10px;
+border: 2px solid palegreen
+
+}
+
+.form-group.error p{
+ color:red
+}
+.form-group.error input{
+    border-color:red
+}
+
+.form-group.error .success input{
+border-color:green
+
+}
