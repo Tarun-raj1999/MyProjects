@@ -1,0 +1,73 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+.call{
+   border:1px solid black;
+   margin-top: 200px;
+   border:none;
+
+
+}
+
+.content{
+
+   position: absolute;
+  
+   display: flex;
+   border:1px solid black;
+   width:95vw;
+   padding:100px 100px;
+   height:50vh;
+
+   background: #37517e url('./images/project1img.jpg');
+   background-size: cover;
+   border:none;
+   background-attachment: fixed;
+   background-blend-mode: lighten;
+
+   
+}
+ 
+
+.content h1{
+    color:white;
+}
+
+p{
+ 
+    margin-top: 50px;
+    margin-left: -180px;
+    color:white;
+}
+button{
+    position: absolute;
+    right:0;
+    margin-left: 100px;
+    padding: 20px 40px;
+    margin-right: 50px  ;
+    border-radius: 50px;
+   border:2px solid;
+  
+    color:white;
+   background:transparent;  
+
+     
+  
+}
+
+button:hover{
+    background-color:#47b2e4;
+    border:none;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.container1{
+    text-align: center;
+}

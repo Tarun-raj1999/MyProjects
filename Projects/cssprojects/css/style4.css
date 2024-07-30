@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+img{
+
+    width:100px;
+   position: absolute;
+   margin-top:-130px;
+   border: 1px solid;
+   border-radius: 50px;
+   border-color: rgb(255, 51, 153);
+border-width: 10px;
+margin-left: 40px;
+}
+.content{
+    background-color:rgb(102, 153, 153); ;
+}
+
+.con{
+border: 1px solid black;
+margin-left: 600px;
+margin-right:600px;
+margin-top: 100px;
+display: flex;
+justify-content: center;
+padding:100px ;
+position: relative;
+height:400px;
+justify-content: center;
+border-radius: 20px;
+background-color: 	rgb(102, 153, 153);
+
+
+}
+p{
+    margin:20px;
+    color: white;
+   background-color:  rgb(102, 153, 153);
+}
+
+.para1
+{
+margin-left: 20px;
+
+}
+.git{
+    font-size: 2rem;
+    
+margin-top: 50px;
+margin-left: -30px;
+   border: 1px solid;
+   border-radius: 50px;
+   border-color: rgb(255, 51, 153);
+   border-width: 10px;
+position:absolute;
+background-color: white;
+}
+
+.git1{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 30px;
+     border: 1px solid;
+     border-radius: 50px;
+     border-color: rgb(255, 51, 153);
+     border-width: 10px;
+     position:absolute;
+     background-color: white;
+
+}
+
+
+
+.git2{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 90px;
+     border: 1px solid;
+     border-radius: 50px;
+     border-color: rgb(255, 51, 153);
+     border-width: 10px;
+     position:absolute;
+     background-color: white;
+}
+
+
+.git3{
+    font-size: 2rem;
+   margin-top: 50px;
+    margin-left: 150px;
+     border: 1px solid;
+     border-radius: 50px;
+     border-color: rgb(255, 51, 153);
+     border-width: 10px;
+     background-color: white;
+  
+
+}
+     
+
+span{
+position: absolute;
+bottom: 0;
+
+border: 1px solid 	rgba(224, 17, 120, 0.848);
+color:white;
+background-color: rgb(255, 51, 153);
+height:50px;
+width:275px;
+border-radius: 0px 0px 20px 20px;
+padding: 20px;
+border:none;
+
+}

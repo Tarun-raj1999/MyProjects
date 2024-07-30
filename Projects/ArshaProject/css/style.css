@@ -1,0 +1,227 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding:50px 0px;
+    position: sticky;
+    top:0;
+    width:100%;  
+  
+}
+
+.dropdown {
+display:flex;
+list-style: none;
+transition: 0.3s;
+color:white;
+margin-left: 100px;
+
+
+
+
+}
+nav{
+    position: absolute;
+
+
+}
+
+.dropdown a{
+text-decoration: none;
+display: block;
+width:100px;
+color:white;
+padding:10px 0px;
+
+
+}
+
+
+
+
+.dropdown li:nth-child(7):hover .deepdropdown{
+    display: block;
+   
+   
+   
+}
+
+.dp1 li{
+list-style-type: none;
+transform: translateX(-100px);
+
+
+
+}
+.dp1{
+    position: absolute;
+    display: none;
+   
+    
+}
+.deepdropdown {
+    list-style: none;
+    display:none;
+
+   
+   
+  
+}
+
+
+.deepdropdown li:nth-child(2):hover .dp1 {
+    display: block;
+   
+}
+
+
+.btn1{
+  position: absolute;
+  right: 60px;
+  margin:2px ;
+  padding:10px 20px;
+  border-radius: 50px;
+  border: none;
+  color:white;
+  background-color: #02c8f5;
+  margin-right:100px;
+}
+.Arsha{
+    color:white;
+
+    margin-right: auto;
+    margin-left:40px;
+  
+}
+
+.container1{
+    display:flex;
+    margin:50px;
+  
+}
+
+.content1{
+margin:100px 100px;
+
+}
+.img1{
+    width:600px;
+
+    
+}
+.content1 h1,p,button,a{
+    padding:20px 0px;
+    color:white;
+}
+
+.header1{
+    font-size: 3rem;
+}
+
+.btn2{
+    padding:10px 20px;
+    border-radius: 50px;
+    border: none;
+    color:white;
+    background-color: #02c8f5;
+
+}
+
+.a1{
+    margin:0px 50px;
+    text-decoration: none;
+}
+
+
+.para1{
+font-size: 1.3rem;
+
+}
+.top{
+
+    background-color:#425479;
+}
+
+
+nav ul li a
+{
+transition: all 0.1s linear;
+
+}
+
+
+nav ul li a:hover{
+color: #02c8f5;
+
+    
+}
+
+.deepdropdown{
+background-color: white;
+
+
+}
+.deepdropdown a{
+    color:black;
+    padding:10px 10px;
+}
+.deepdropdown a:hover{
+    color: #02c8f5;
+}
+
+.banner{
+  
+ display: flex;
+}
+.container1{
+    flex-wrap: wrap;
+}
+
+.open-menu,.close-menu{
+    position:absolute;
+  display: none;
+}
+
+
+.open-menu{
+    top:50%;
+    right:100px;
+    transform: translateY(-50%)
+}
+
+.close-menu{
+    top:50%;
+    right:100px;
+}
+
+
+
+
+@media(max-width:1100px)
+{
+     .dropdown{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:80%;
+        height:100vh;
+        position: fixed;
+        top:0;
+        right:-100%;
+        z-index: 100;
+        background-color: white;
+     }
+
+     .open-menu , .close-menu {display:block;color:white}
+     #check:checked ~ .dropdown{right:0;}
+     .dropdown li a  {
+       color:black;
+     }
+}
+

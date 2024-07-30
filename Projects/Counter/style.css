@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.countdown {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.timer {
+    display: inline-block;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.timer span {
+    padding: 0 5px;
+}

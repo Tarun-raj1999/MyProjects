@@ -1,0 +1,53 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+.dropdown a{
+    display:block;
+    text-decoration: none;
+    
+}
+
+.dropdown .content{
+
+    position: absolute;
+    display:none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown:hover .content{
+display:block; 
+
+}
+
+.content3 a{
+margin-right: 100px;
+}
+
+.dropdown2 a{
+    display:block;
+    text-decoration: none;
+    
+}
+
+.dropdown2 .content2{
+
+    display: none;
+}
+
+.dropdown2:hover .content2{
+    display:block;
+    margin-left: 100px;
+}
+.btn1{
+
+    background-color: white;
+    border:none;
+}

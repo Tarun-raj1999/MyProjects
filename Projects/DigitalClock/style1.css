@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+}
+
+.todaysupdate{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+
+.time{
+
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    
+}
+
+
+.realtime{
+
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+.realtime li{
+    list-style: none;
+}
+
+.realweekends  {
+    display: flex;
+
+    gap:50px;
+    justify-content: center;
+   list-style: none;
+}
+
+
+.container div{
+    
+    margin-bottom: 100px;
+}
+
+
+.todaysupdate div{
+    margin-left: 150px;
+}
+
+#date,#mon,#year,#ho,#min,#sec{
+ 
+    padding: 10px;
+    background-color:#b33939;
+    color:#ff3f34;
+    font-weight: 3em;
+    font-size: 20px;
+}
+
+.container{
+    background-color: black;
+
+    margin:10px 200px;
+    padding:10px 0px;
+}
+

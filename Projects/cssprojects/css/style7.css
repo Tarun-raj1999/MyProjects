@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.name img{
+width:30px;
+
+}
+nav{
+    display: flex;
+  justify-content: space-between;
+  gap:0px 10px;
+  margin: auto;
+}
+
+.name h1{
+    display: inline;
+
+  color:white;
+  font-size: 3rem;
+}
+
+a{
+    display: inline;
+    justify-content: space-between;
+    margin:2px;
+    color:white;
+    font-size: 1.3rem;
+   
+    
+}
+
+a{
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.hire{
+    margin-top: 40px;
+    margin-right: 200px;
+   
+}
+
+.name{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.btn1{
+    color:white;
+    font-size: 1rem;
+    padding:10px;
+    width:100px;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50px;
+    border: none;
+  transition: 0.4s;
+}
+
+body{
+    background-color: 		rgb(27, 27, 24);
+}
+.home{
+    color: rgb(255, 51, 0);
+
+}
+
+.content1 h1 {
+    color:white;
+    font-size: 4rem;
+    font-weight: 1000000;
+   
+}
+.content1 p{
+    color:white;
+    top:100px;
+    
+    position: absolute;
+
+}
+
+.logo img{
+    width:20px;
+}
+
+.content1{
+margin-top: 200px;
+margin-left: 100px;
+
+}
+
+
+.btn2{
+
+  
+        color:white;
+        font-size: 1rem;
+        padding:10px;
+        width:150px;
+        background-color: rgb(255, 51, 0);
+        border-radius: 30px;
+        border: none;
+        position: absolute;
+        margin-top: 150px;
+      transition: 0.4s;
+}
+
+.btn2:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+.content1 span {
+
+    color: rgb(255, 51, 0);
+}
+
+.content1{
+
+    border:1px solid white;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    height: auto;
+    border:none;
+   
+    
+}
+
+.content1 img{
+margin-left: 500px;
+width:400px;
+margin-top:-100px ;
+}
+
+
+  
+ .btn1:hover {
+ transform:scale(0.9) ;
+ cursor: pointer;   
+  }
+a{
+    position: relative;
+}
+
+  a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color:  rgb(255, 51, 0);
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+a:hover:after{
+width:100%;
+
+}
