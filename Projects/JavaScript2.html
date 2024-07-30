@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<title>Java Script</title>
+
+</head>
+
+<body>
+<h1>value =<span id="d"></span></h1>
+<input id="a" type="text" name="num">
+<input id="b" type="text" name="num">
+<button onclick="add()">Add</button>
+<button onclick="Sub()">Sub</button>
+<button onclick="mul()">Mul</button>
+<button onclick="div()">Div</button> 
+<script>
+function add()
+{
+const value1=document.getElementById("a").value;
+const value2=document.getElementById("b").value;
+const value3=+value1 +  +value2;
+document.getElementById("d").innerHTML=value3;
+
+
+}
+
+function Sub()
+{
+const value1=document.getElementById("a").value;
+const value2=document.getElementById("b").value;
+const value3=+value1 -  +value2;
+document.getElementById("d").innerHTML=value3;
+
+
+}
+
+function mul()
+{
+const value1=document.getElementById("a").value;
+const value2=document.getElementById("b").value;
+const value3=+value1 *  +value2;
+document.getElementById("d").innerHTML=value3;
+
+
+}
+
+function div()
+{
+const value1=document.getElementById("a").value;
+const value2=document.getElementById("b").value;
+const value3=+value1 /  +value2;
+document.getElementById("d").innerHTML=value3;
+
+
+}
+
+
+</scrip>
+</body>
+</html>
+
+
+

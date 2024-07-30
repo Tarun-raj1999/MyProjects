@@ -1,0 +1,227 @@
+
+.img3
+{
+width:80px;	
+	
+	
+}
+
+.img1
+{
+	
+height:20px;	
+	
+}
+
+.cont1
+{
+border:solid;
+border-color:#FFD700;
+border-radius:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+  
+
+	
+}
+.cont1:hover {
+transform:scale(1.02);
+}
+.cont2
+{
+border:solid;
+border-color:#FFD700;
+border-radius:5px;		
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	
+}
+.cont2:hover {
+transform:scale(1.02);
+}
+.cont3
+{
+border:solid;
+border-color:#FFD700;	
+border-radius:5px;	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.cont3:hover {
+transform:scale(1.02);
+}
+.topSelection2:hover{
+	transform:scale(1.02);
+}
+.para1
+{
+margin-left:130px;	
+	
+}
+.para2
+{
+margin-left:130px;	
+	
+}
+.para3
+{
+margin-left:130px;	
+	
+}
+.col1
+{
+margin-top:20px;	
+	
+}
+.carol
+{
+height:50px;	
+	
+}
+.Hello
+{
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+/**********  Footer-Section CSS Code Starts  **********/
+.footer {
+  background: #232f3e;
+  padding: 50px 0px;
+}
+.quicklink-menu {
+  list-style: none;
+  padding-left: 10px;
+}
+.quicklink-menu li a {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  text-decoration: none;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.social-media {
+  list-style: none;
+  margin-top: 10px;
+}
+.social-media li a img {
+  width: 30px;
+}
+.social-media li {
+  float: left;
+  padding: 0px 8px;
+}
+.quicklink-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.get-in-touch {
+  list-style: none;
+  padding-left: 10px;
+}
+.get-in-touch li i {
+  color: #ed372c;
+  font-size: 20px;
+}
+.get-in-touch li {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 15px;
+  text-decoration: none;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.footer-e-mail {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.footer-website {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.footer2-bacbor {
+  background: #232f3e;
+  padding: 10px 0px;
+  border-top: 1px solid #898989;
+}
+.footer2-content {
+  font-size: 14px;
+  color: #fff;
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.colorPicker
+{
+background-color: #e7e7e7
+	
+}
+.button {
+  background-color: #e7e7e7;; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.login
+{
+	
+	background-color:rgb(230, 230, 230);
+	padding-right:-20px;
+	
+	
+}
+
+.login1
+{
+	
+	
+	margin-top:60px;
+}
+
+.checked {
+  color: orange;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+

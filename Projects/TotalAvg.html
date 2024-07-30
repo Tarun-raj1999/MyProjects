@@ -1,0 +1,62 @@
+<html>
+<title>Total Avg Grade</title>
+
+<body>
+
+<h1>Total=<span id="T"></span></h1>
+<h2>avg=<span id="a"></span></h2>
+<h2>Grade=<span id="G"></span></h2>
+
+<input id="M" type="text" name='num'>
+<input id="P" type="text" name='num'>
+<input id="C" type="text" name='num'>
+<input id="B" type="text" name='num'>
+<button onclick="submit()">submit</button>
+<script>
+function submit()
+{
+var value1=document.getElementById("M").value;
+var value2=document.getElementById("P").value;
+var value3=document.getElementById("C").value;
+var value4=document.getElementById("B").value;
+var value5=+value1 + +value2 + +value3 + +value4;
+document.getElementById("T").innerHTML=value5;
+var value6=+value1 + +value2 + +value3 + +value4/4;
+document.getElementById("a").innerHTML=value6;
+if(value6<100)
+{
+	if(value6>=90 )
+	{
+	document.getElementById("G").innerHTML="A GRADE";
+}
+else if(value6>=70)
+{
+document.getElementById("G").innerHTML="B GRADE";
+}
+else if(value6>=50)
+{
+document.getElementById("G").innerHTML="C GRADE";
+}
+else if(value6>=40)
+{
+document.getElementById("G").innerHTML="D GRADE";
+}
+else if(value6>=35)
+{
+document.getElementById("G").innerHTML="E GRADE";
+}
+else
+{
+document.getElementById("G").innerHTML="FAIL";
+}
+
+
+
+}
+}
+
+</script>
+
+
+</body>
+</html>

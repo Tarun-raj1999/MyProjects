@@ -1,0 +1,31 @@
+p
+{
+word-spacing:10px;
+border-style:solid;	
+border-width:1px;
+height:40px;
+text-align:center;
+margin-left:100px;
+margin-right:100px;
+margin-top:100px;
+outline-style:double;
+outline-color:red;
+outline-width:10px;
+word-spacing:50px;
+text-shadow:20px;
+text-align:justify;
+
+}
+
+h1
+{
+	text-shadow:20px 0px red;
+	
+}
+
+body
+{
+	
+	background-image:url("https://www.w3schools.com/w3images/architect.jpg")400px;
+   
+}
